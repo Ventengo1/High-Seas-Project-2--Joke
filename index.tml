@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Joke Generator</title>
+  <p> Hello People. This is my second project for the Hack Club High Seas event. I hope you like it. This one isn't as structured as my past project but I was pretty tired when I made this. If you have any feedback feel free to tell me. </p>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Random Joke Generator</h1>
+  <div class="joke-container">
+    <p class="joke">Click the button for a joke! - The jokes are AI created, hopefully they aren't too bad.</p>
+    <button class="joke-btn" onclick="generateJoke()">Get a Joke (Click the button again if you don't like the joke or just want another one)</button>
+  </div>
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*GI-td9gs8D5OKZd19mAOqA.png" alt="Miro Medium Image" width="300">
+  <br>
+  <img src="https://www.tasteofhome.com/wp-content/uploads/2018/02/noodledadjoke.jpg?fit=300,300&webp=1" alt="Noodle Dad Joke" width="300" height="300">
+  <script src="script.js"></script>
+</body>
+</html>
